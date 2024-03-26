@@ -3,7 +3,6 @@ from v_wallet import sendTransaction
 # Number of trans
 trans = 100
 
-# Generate 10 Cosmos wallets
 txts = [sendTransaction() for _ in range(trans)]
 
 # Print out the txt
